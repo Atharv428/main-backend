@@ -2,9 +2,9 @@
   "name": "main-backend",
   "version": "1.0.0",
   "description": "to build",
-  "type": "commonjs",
-  "scripts":{
-    "dev":"nodemon src/index.js"
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -13,8 +13,10 @@
   "license": "ISC",
   "author": "Atharv nawale",
   "main": "index.js",
-   
   "dependencies": {
     "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
   }
 }
